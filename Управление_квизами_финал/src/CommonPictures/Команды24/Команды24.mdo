@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ac1fbf3-6e26-497b-8c1f-435450f83539">
+  <name>Команды24</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды24</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

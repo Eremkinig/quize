@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8dcd521-0305-49b4-9bed-235e9d792085">
+  <name>НастроитьКвиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить квиз</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DefinedType.Квиз</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Квиз16</picture>
+  </picture>
+</mdclass:CommonCommand>

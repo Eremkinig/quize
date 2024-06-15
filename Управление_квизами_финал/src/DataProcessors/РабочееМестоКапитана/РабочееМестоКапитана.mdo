@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760bb565-1e6a-4ff6-972a-ce40c2bb725f">
+  <producedTypes>
+    <objectType typeId="4700b605-a670-469f-8688-e5fbfc83343a" valueTypeId="c244f515-af65-40df-8868-067c8dcb2f67"/>
+    <managerType typeId="c9d13f50-cef5-4f52-ae02-ceb1c96d047d" valueTypeId="82b53727-5bde-4f3a-9bf8-9abfc3498090"/>
+  </producedTypes>
+  <name>РабочееМестоКапитана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место капитана</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКапитана.Form.Форма</defaultForm>
+  <attributes uuid="0192e5a7-a04f-4655-b885-cde1c6c0028c">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="49ff02ea-e401-44fe-80d5-b0dafb76eea9">
+    <name>Квиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квиз</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Квизы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="5ce6e3ae-4eeb-424a-9b41-a69045439fb5">
+    <producedTypes>
+      <objectType typeId="2f76210f-84eb-4800-8fbb-e16e9e25800a" valueTypeId="483011a5-33a6-4637-9bea-f6936c264e4d"/>
+      <rowType typeId="d8f22ceb-c674-4d90-93f4-a9977b029c2b" valueTypeId="45c2c8a6-c242-4e27-83b7-00a2c188f942"/>
+    </producedTypes>
+    <name>Ответы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы</value>
+    </synonym>
+    <attributes uuid="3532e0af-7924-4ea1-a695-a187acd04f16">
+      <name>Раунд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раунд</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Раунд</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9ded52ea-56b8-4b2c-8f17-fa1152b70390">
+      <name>Ответ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Ответ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f9d1f53a-58af-4015-8694-da47beb72639">
+      <name>Вопрос</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вопрос</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вопросы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b7e7442a-0336-45cb-995e-46465be395ad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

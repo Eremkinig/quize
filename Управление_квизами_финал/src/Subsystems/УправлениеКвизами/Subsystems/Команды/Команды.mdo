@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="043d91eb-9eb1-4757-8178-696611611477">
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Команды</content>
+  <content>DataProcessor.РабочееМестоКапитана</content>
+  <content>Catalog.Пользователи</content>
+  <parentSubsystem>Subsystem.УправлениеКвизами</parentSubsystem>
+</mdclass:Subsystem>

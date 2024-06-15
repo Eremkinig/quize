@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3647326c-ae9b-48d5-b792-095381a74aab">
+  <producedTypes>
+    <containerType typeId="fe93076b-95ac-4619-83a5-06791f663e38" valueTypeId="bcd1a7eb-d88d-4575-bcba-8ec2fa0a20bb"/>
+  </producedTypes>
+  <name>Раунд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раунд</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Раунды</types>
+  </type>
+</mdclass:DefinedType>

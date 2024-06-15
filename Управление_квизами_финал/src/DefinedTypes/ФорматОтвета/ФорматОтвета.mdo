@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="937b8059-83dd-4c03-b2ad-8e2e4b58567a">
+  <producedTypes>
+    <containerType typeId="bd98d29f-13d3-4a2d-a1e8-67920b5ec6f3" valueTypeId="cad23e1e-bd08-48f1-9c7e-5e4d0ced1885"/>
+  </producedTypes>
+  <name>ФорматОтвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат ответа</value>
+  </synonym>
+  <type>
+    <types>TypeDescription</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c20d1f2a-1851-4a11-8f64-1c9891fe96a2">
+  <producedTypes>
+    <objectType typeId="3f7e077d-5f70-4da5-8ee0-40bfa6767889" valueTypeId="1118c6e8-0aa7-40ff-a7c1-ef38836f2ae1"/>
+    <refType typeId="731cc305-0444-4dca-8e26-f4eac73a9ba9" valueTypeId="2a740aa3-c82a-4bbe-9e41-9b36236f369b"/>
+    <selectionType typeId="1f97151f-943d-45c5-abd4-192b9af4dfe8" valueTypeId="8e5c3d53-04f6-421b-8c0a-c01baab3351b"/>
+    <listType typeId="368a8739-a03b-4a27-b053-4b5e9e5b6997" valueTypeId="0dd67502-2f83-4539-86b5-08a4b8f14f92"/>
+    <managerType typeId="629e4e2c-bf5e-43d6-b8a8-9eb02a44c402" valueTypeId="1ac61124-1177-40fb-a052-38bec277079a"/>
+  </producedTypes>
+  <name>Квизы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квизы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Квизы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Квизы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квиз</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Квизы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Квизы.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="0040e3b3-6138-4bce-baaa-6f4369ba9787">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

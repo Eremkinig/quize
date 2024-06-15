@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c260340-fcc0-4d02-8cc6-e1f00bfba01c">
+  <producedTypes>
+    <containerType typeId="47110fd2-4a4e-46ea-a5a0-5bd52b8eb55f" valueTypeId="e8db86f4-fba2-4e08-849f-8adf5ebd9c42"/>
+  </producedTypes>
+  <name>Ответ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

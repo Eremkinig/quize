@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5334d6d3-70dd-4489-81ee-f3b8bb26c72a">
+  <name>УправлениеКвизами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление квизами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Квиз64</picture>
+  </picture>
+  <content>Catalog.Вопросы</content>
+  <content>Catalog.Команды</content>
+  <content>DataProcessor.КонфигураторКвиза</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>Catalog.Квизы</content>
+  <content>InformationRegister.АктивныеРаунды</content>
+  <content>InformationRegister.ОтветыКоманд</content>
+  <content>CommonPicture.НовыйКвиз16</content>
+  <content>CommonPicture.Раунды32</content>
+  <content>CommonPicture.Раунды24</content>
+  <content>CommonPicture.Команды24</content>
+  <content>CommonModule.УправлениеКвизами</content>
+  <content>CommonModule.УправлениеКвизамиПовтИсп</content>
+  <content>CommonPicture.Квиз16</content>
+  <content>DataProcessor.РабочееМестоВедущего</content>
+  <content>CommonPicture.Ответы16</content>
+  <content>CommonPicture.АктивныйРаунд16</content>
+  <content>DataProcessor.РабочееМестоКапитана</content>
+  <content>CommonPicture.Капитан16</content>
+  <content>CommonPicture.Ответ16</content>
+  <content>Report.РезультатыКвиза</content>
+  <content>Catalog.Пользователи</content>
+  <content>InformationRegister.НастройкиКвиза</content>
+  <content>Catalog.Раунды</content>
+  <content>CommonPicture.Старт16</content>
+  <content>CommonPicture.Стоп16</content>
+  <content>CommonPicture.Обновить16</content>
+  <content>CommonPicture.Квиз64</content>
+  <content>CommonCommand.НастроитьКвиз</content>
+  <content>CommonTemplate.ОписаниеИзмененийСистемы</content>
+  <content>CommonModule.УправлениеКвизамиКлиент</content>
+  <content>DefinedType.Ответ</content>
+  <content>DefinedType.Раунд</content>
+  <content>DefinedType.Квиз</content>
+  <content>DefinedType.КоличествоБаллов</content>
+  <content>DefinedType.ФорматОтвета</content>
+  <content>Role.Капитан</content>
+  <content>Role.Ведущий</content>
+  <content>Catalog.КомандыПрисоединенныеФайлы</content>
+  <content>EventSubscription.ОпределитьФормуПрисоединенногоФайла</content>
+  <subsystems>Вопросы</subsystems>
+  <subsystems>Команды</subsystems>
+  <subsystems>Квиз</subsystems>
+</mdclass:Subsystem>

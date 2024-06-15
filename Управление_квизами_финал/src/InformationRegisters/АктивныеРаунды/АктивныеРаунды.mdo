@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c557b8f8-4d84-4170-84f1-f9b20874d7d1">
+  <producedTypes>
+    <selectionType typeId="87d9eaf3-8506-4bc1-8e5e-d7a93cbb8a30" valueTypeId="2896a5d4-37c8-4436-9621-70ab532c1834"/>
+    <listType typeId="d9539126-df26-4bb9-8cf6-2caf5ad10d27" valueTypeId="939b3c7c-0765-4af3-935b-137fd9800f6e"/>
+    <managerType typeId="2db742a4-4ec9-4b7c-b9fb-65fbb49fcfb4" valueTypeId="449171b3-a4c8-4bb9-a4aa-2e024f54cc24"/>
+    <recordSetType typeId="08fde386-db93-43db-9ed6-e01e566d04e0" valueTypeId="530b06b0-0ccf-4cf9-9d1c-d7f9ba92b633"/>
+    <recordKeyType typeId="5827a500-1516-4d42-a220-b576fbea6d97" valueTypeId="a7046819-946a-4739-bc5d-24d79d6babfc"/>
+    <recordType typeId="2b3ed38b-56ac-4f09-9083-a4e34b8d64be" valueTypeId="fb7a5a46-fd17-46e4-8745-5b056901ae39"/>
+    <recordManagerType typeId="c2a1ca70-47e0-439a-aeba-9175ec7077a1" valueTypeId="ab9d622f-9f80-4f18-bb1e-a2a43c155df0"/>
+  </producedTypes>
+  <name>АктивныеРаунды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные раунды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2863b9cd-11d6-4b19-852d-4db9d936d88f">
+    <name>Квиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квиз</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Квиз</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a477c096-c4d7-4994-a57f-6f57909236c0">
+    <name>Раунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раунд</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Раунд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

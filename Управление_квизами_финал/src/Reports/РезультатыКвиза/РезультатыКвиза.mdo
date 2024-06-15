@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="009df70a-c03d-4362-a2fc-84db61dbc718">
+  <producedTypes>
+    <objectType typeId="776774e3-b2ec-4c04-9363-5d5ac6ffec82" valueTypeId="202e3f7d-06de-465c-8dfe-8f7adf298395"/>
+    <managerType typeId="98a74cca-0064-40e5-8518-43f5715e7c2e" valueTypeId="d7a4e4b1-a19a-48cd-9765-f65b1ad0d47b"/>
+  </producedTypes>
+  <name>РезультатыКвиза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты квиза</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РезультатыКвиза.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="167c15b9-886e-4b1f-8c0e-f159f1747efb">
+    <name>ФормаВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма варианта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="08a8b5eb-f814-4dfe-a5da-6bd6a00e1f54">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

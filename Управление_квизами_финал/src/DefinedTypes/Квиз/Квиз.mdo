@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="223fdc49-8cb0-405d-b615-73510e31b722">
+  <producedTypes>
+    <containerType typeId="2bd64752-7fa8-4c0a-8bdd-8d6162460a69" valueTypeId="363546cf-7151-4bb9-b90f-3b59a3b45640"/>
+  </producedTypes>
+  <name>Квиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квиз</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Квизы</types>
+  </type>
+</mdclass:DefinedType>
